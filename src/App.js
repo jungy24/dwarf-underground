@@ -6,6 +6,7 @@ import LinkOne from './LinkOne'
 import LinkTwo from './LinkTwo'
 import LinkThree from './LinkThree'
 import LinkFour from './LinkFour'
+import Footer from './Footer'
 import './App.css';
 
 class App extends Component {
@@ -28,10 +29,7 @@ class App extends Component {
           </div>
         </main>
 
-        <footer className="expanded row">
-          <h6>&copy; 2017 Erebor Industries</h6>
-          <h6 className="float-right">All rights reserved</h6>
-        </footer>
+        <Footer />
       </div>
     );
   }
